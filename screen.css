@@ -45,16 +45,19 @@ main {
     margin: 0;
 }
 
-h3{
+.details h3{
     font-size: var(--header-font-size);
     text-align: center;
-    padding-bottom: 0px;
+    margin: 0 auto;
+    padding-top: 50px;
 }
 
 .details p{
     font-size: var(--paragraph-font-size);
     text-align: left;
     line-height: 42px;
+    margin: 25px auto;
+    padding-top: 0px;
 }
 
 .details ul li{
@@ -81,6 +84,12 @@ h3{
     background: url(bullet-share.svg) no-repeat center left;
 }
 
+.cta h3{
+    font-size: var(--header-font-size);
+    text-align: center;
+    margin: 24px auto;
+    padding-top: 50px;
+}
 form{
     width: 1015px;
     height: 190px;
@@ -89,6 +98,7 @@ form{
     align-items: center;  
     border-radius: 40px;
     border-width: 40px;
+    border: 1px solid #000000;
     background: linear-gradient(180deg, #E2E2E2 0%, #D6D7D6 100%);
 }
 
@@ -98,7 +108,7 @@ input[type=text]{
     font-size: 24px;
     text-align: center;
     margin-right: 10px;
-
+    border: 0px;
   }
 
   input[type=button]{
@@ -110,5 +120,5 @@ input[type=text]{
     text-transform: uppercase;
     color: #FFFFFF;
     background-color: #FF3F3C;
-
+    border: 0px;
   }
